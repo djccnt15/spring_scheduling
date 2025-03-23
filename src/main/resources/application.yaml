@@ -3,3 +3,4 @@ spring:
     name: spring_scheduling
 schedule:
   cron: "*/2 * * * * *"
+  fixed-rate: 2000
