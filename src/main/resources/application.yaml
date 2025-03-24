@@ -4,3 +4,4 @@ spring:
 schedule:
   cron: "*/2 * * * * *"
   fixed-rate: 2000
+  fixed-delay: 2000
