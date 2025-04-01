@@ -1,6 +1,10 @@
 spring:
   application:
     name: spring_scheduling
+  task:
+    scheduling:
+      pool:
+        size: 4  # set thread pool size for running tasks in parallel
 schedule:
   cron: "*/2 * * * * *"
   fixed-rate: 2000
